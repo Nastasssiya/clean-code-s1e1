@@ -4,29 +4,29 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
-.wrapInf {
+.wrap_inf {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.imageInf {
+.image_inf {
   width: 100%;
 }
-.wrapInf,
-.moreInf {
+.wrap_inf,
+.link_more_inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-.wrapInf { 
+.wrap_inf { 
   text-align: center;
 }
 
 }
 
-.wrapMain {
+.wrap_main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -75,7 +75,7 @@ button:hover {
 
 /* Heading */
 h3,
-label[for="newTask"] {
+label[for="new_task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -103,12 +103,12 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="newTask"] {
+label[for="new_task"] {
   display: block;
   margin: 0 0 20px;
 }
 
-#newTask {
+#new_task {
   width: 318px;
 }
 
@@ -152,7 +152,7 @@ li > input[type="text"] {
 }
 
 /* Completed */
-#completedTasks label {
+#completed_tasks label {
   text-decoration: line-through;
   color: #888;
 }
@@ -162,11 +162,11 @@ ul li input[type=text] {
   display: none;
 }
 
-ul li.editMode input[type=text] {
+ul li.edit_mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.editMode label {
+ul li.edit_mode label {
   display: none;
 }
