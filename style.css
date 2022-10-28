@@ -4,25 +4,25 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.wrapperInf {
+.wrapInf {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.wrapperInf img {
+.wrapInf img {
   width: 100%;
 }
-.wrapperInf .moreInf {
+.wrapInf .moreInf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.wrapperInf { 
+.wrapInf { 
   text-align: center;
 }
 }
-.wrapperMain {
+.wrapMain {
   display: block;
   width: 500px;
   margin: 0 auto 0;
