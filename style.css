@@ -13,7 +13,8 @@
 .imageInf {
   width: 100%;
 }
-.wrapInf .moreInf {
+.wrapInf,
+.moreInf {
   font-family: fantasy, cursive;
 }
 
@@ -46,15 +47,19 @@ ul {
   padding: 0px;
 }
 
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
 
-input,button{
+input,
+button{
   outline: none;
 }
 
-.add, .edit, .delete {
+.add,
+.edit,
+.delete {
   background: none;
   border: 0px;
   color: #888;
@@ -69,7 +74,8 @@ button:hover {
 }
 
 /* Heading */
-h3, label[for="newTask"] {
+h3,
+label[for="newTask"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
