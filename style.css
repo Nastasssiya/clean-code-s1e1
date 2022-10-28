@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -10,7 +10,7 @@ body {
   display: block;
   text-align: right;
 }
-.wrapInf img {
+.imageInf {
   width: 100%;
 }
 .wrapInf .moreInf {
@@ -45,7 +45,7 @@ li, h3 {
 input,button{
   outline: none;
 }
-button {
+.add, .edit, .delete {
   background: none;
   border: 0px;
   color: #888;
@@ -89,7 +89,7 @@ label[for="newTask"] {
   display: block;
   margin: 0 0 20px;
 }
-input#newTask {
+#newTask {
   width: 318px;
 }
 
@@ -118,17 +118,17 @@ li > label {
 li >    input[type="text"] {
   width: 226px
 }
-button.delete img {
+.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.delete img:hover {
   transform: rotatez(0);
 }
 
 /* Completed */
-ul#completedTasks label {
+#completedTasks label {
   text-decoration: line-through
   color: #888;
 }
