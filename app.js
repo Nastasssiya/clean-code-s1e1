@@ -8,6 +8,8 @@
 
 // Event handling, user interaction is what starts the code execution.
 
+alert('Неправильно задеплоила, прошу проверить задание по этой ссылке https://github.com/Nastasssiya/clean-code-s1e1/pull/2 извиняюсь за неудобства.' );
+
 var taskInput=document.getElementById("new_task");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
 var incompleteTaskHolder=document.getElementById("incomplete_tasks");//ul of #incompleteTasks
@@ -85,7 +87,7 @@ var editTask=function(){
     var editInput=listItem.querySelector('input[type=text]');
     var label=listItem.querySelector("label");
     var editBtn=listItem.querySelector(".edit");
-    var containsClass=listItem.classList.contains("editMode");
+    var containsClass=listItem.classList.contains("edit_mode");
     //If class of the parent is .editmode
     if(containsClass){
 
@@ -99,7 +101,7 @@ var editTask=function(){
     }
 
     //toggle .editmode on the parent.
-    listItem.classList.toggle("editMode");
+    listItem.classList.toggle("edit_mode");
 };
 
 
