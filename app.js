@@ -8,6 +8,8 @@
 
 // Event handling, user interaction is what starts the code execution.
 
+alert('Неправильно задеплоила, прошу проверить задание по этой ссылке https://github.com/Nastasssiya/clean-code-s1e1/pull/2 извиняюсь за неудобства.' );
+
 var taskInput=document.getElementById("new_task");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
 var incompleteTaskHolder=document.getElementById("incomplete_tasks");//ul of #incompleteTasks
